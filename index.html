@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            <img id="header-img" src="https://w7.pngwing.com/pngs/579/399/png-transparent-trombone-musical-instruments-computer-icons-trombone-angle-text-logo.png" alt="Original Trombones Logo" width="50">
+            Original Trombones
+        </h1>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Work</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+    
+    <section id="form-section">
+        <h2>Register Here</h2>
+        
+        <form action="https://formspree.io/f/xeejynbp" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Write your message here" rows="4"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="hero">
+        <h1>Handcrafted, Home-Made Masterpieces</h1>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <h2>Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+        </div>
+        <div class="feature">
+            <h2>Fast Shipping</h2>
+            <p>We make sure you receive your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+        </div>
+        <div class="feature">
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+    </section>
+
+    <section id="how-it-works">
+        <h2>Watch Our Product Video</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8-fkvWFSeYc" title="Product Video" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="pricing">
+        <div class="product-card">
+            <h3>Tenor Trombone</h3>
+            <img src="images/tenor-trombone.jpg" alt="trombone image">
+            <p class="price">$600</p>
+            <ul>
+                <li>Good for beginners</li>
+                <li>Excellent sound quality</li>
+                <li>Great for jazz Bands</li>
+                <li>Nice and shiny</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Bass Trombone</h3>
+            <img src="images/bass-trombone.jpg" alt="Trombone image">
+            <p class="price">$900</p>
+            <ul>
+                <li>Sound quality is unmatched</li>
+                <li>Best for professionals</li>
+                <li>Absolutely stunning</li>
+                <li>Durable and long lasting</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+        </div>
+
+        <div class="product-card">
+            <h3>Valve Trombone</h3>
+            <img src="images/valve trombone.jpg" alt="trombone image">
+            <p class="price">$1200</p>
+            <ul>
+                <li>Plays similar to a Trumpet</li>
+                <li>Great for Jazz Bands</li>
+                <li>Beautiful in sound and appearance</li>
+                <li>Just amazing</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+</html>
